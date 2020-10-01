@@ -1,0 +1,42 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+<!--         <p>{{- site.description | escape -}}</p> -->
+              <p>
+                Thank you for checking out my blog <br>
+  I am writing about things that i am learning everyday in my journey to become a Data Scientist.<br>
+  A few blogs are just a small writeup's from other detailed blogs. I have written them so as to explain these things to myself.
+  <br>
+  Please find these references at the start of the blogs.<br>
+              </p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
