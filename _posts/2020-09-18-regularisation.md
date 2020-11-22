@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Regularisation - Why do we need it ?"
+title:  "Regularisation - Why do we really need it ?"
 date:   2020-09-18 09:30:32 +0530
 usemathjax: true
 categories: jekyll update
